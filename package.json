@@ -1,0 +1,19 @@
+{
+  "name": "express-msisdn",
+  "version": "1.0.0",
+  "description": "Using this middleware u can easily find the msisdn(for more visit https://en.wikipedia.org/wiki/MSISDN) number.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamrulhasan1203/express-msisdn.git"
+  },
+  "author": "kamrulhasan1203",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamrulhasan1203/express-msisdn/issues"
+  },
+  "homepage": "https://github.com/kamrulhasan1203/express-msisdn#readme"
+}
