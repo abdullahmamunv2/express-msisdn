@@ -1,6 +1,6 @@
 {
   "name": "express-msisdn",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Using this middleware u can easily find the msisdn(for more visit https://en.wikipedia.org/wiki/MSISDN) number.",
   "main": "index.js",
   "scripts": {
