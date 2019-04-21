@@ -17,12 +17,13 @@ const msisdn = (customHeaders=[])=>{
     }
     return (req,res,next)=>{
         for(var i=0;i<MSISDN_HEADER.length;i++){
-            var header = headers[i].toLowerCase();
+            var header = MSISDN_HEADER[i].toLowerCase();
             if(req.headers.hasOwnProperty(header)){
                 req.msisdn = req.headers[header];
                 break;
             }
         }
+        next();
     }
 }
 
