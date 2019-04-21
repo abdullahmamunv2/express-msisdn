@@ -8,7 +8,7 @@
   },
   "keywords": [
     "msisdn",
-    "express"
+    "express-msisdn"
   ],
   "repository": {
     "type": "git",

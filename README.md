@@ -15,7 +15,7 @@ $ npm i express-msisdn
 ```
 const express = require('express')
 const app = express()
-const msisdn = require('express-msisdn);
+const msisdn = require('express-msisdn');
 
 // add msisdn middleware
 app.use(msisdn());

@@ -1,4 +1,4 @@
-const MSISDN_HEADER   =  [
+var MSISDN_HEADER   =  [
     'X-MSISDN',
     'X_MSISDN',
     'HTTP_X_MSISDN',
@@ -26,4 +26,4 @@ const msisdn = (customHeaders=[])=>{
     }
 }
 
-module.export =  msisdn;
+module.exports =  msisdn;
