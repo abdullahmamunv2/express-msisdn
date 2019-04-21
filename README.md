@@ -1,15 +1,18 @@
-# express-msisdn v1.0.0
-
+# express-msisdn v1.0.1
+Find User's Msisdn number.(For more please visit https://en.wikipedia.org/wiki/MSISDN)
 This library/middleware exported as Node.js modules.
 
-Installation
+## Installation
 
-Using npm : 
+Using npm :
+``` 
 $ npm i -g npm
 $ npm i express-msisdn
+```
 
-In Node.js : 
+## In Node.js : 
 
+```
 const express = require('express')
 const app = express()
 const msisdn = require('express-msisdn);
@@ -23,10 +26,11 @@ app.get('/', (req, res) =>{
 })
 
 app.listen(port, () => console.log(`Msisdn example app listening on port ${port}!`));
+```
 
 
-
-**Caution: We are matching the following headers :
+## Caution:
+ We are matching the following headers :
 
  'X-MSISDN',
  'X_MSISDN',
@@ -38,7 +42,10 @@ app.listen(port, () => console.log(`Msisdn example app listening on port ${port}
 
 So be sure about header before using it.
 
-**Solution : U can add custom header as follow :
+## Solution : 
+U can add custom header as follow :
+```
 app.use(msisdn(['YOUR_CUSTOM_HEADER']));
+```
 
 
