@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": ["msisdn","express"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kamrulhasan1203/express-msisdn.git"

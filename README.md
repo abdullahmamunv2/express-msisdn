@@ -1,4 +1,4 @@
-# express-msisdn v1.0.1
+# express-msisdn
 Find User's Msisdn number.(For more please visit https://en.wikipedia.org/wiki/MSISDN)
 This library/middleware exported as Node.js modules.
 
