@@ -15,7 +15,7 @@
     "url": "git+https://github.com/kamrulhasan1203/express-msisdn.git"
   },
   "author": "kamrulhasan1203",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kamrulhasan1203/express-msisdn/issues"
   },
