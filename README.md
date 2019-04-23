@@ -30,7 +30,8 @@ app.listen(port, () => console.log(`Msisdn example app listening on port ${port}
 
 
 ## Caution:
- We are matching the following headers :
+ 1. You have to turn on mobile data instead of wifi.  
+ 2. This middlware search for following headers in http request :
 
  'X-MSISDN',
  'X_MSISDN',
@@ -40,12 +41,12 @@ app.listen(port, () => console.log(`Msisdn example app listening on port ${port}
  'HTTP_X_UP_CALLING_LINE_ID',
 'X_WAP_NETWORK_CLIENT_MSISDN'
 
-So be sure about header before using it.
+If u didn't find msisdn then contact with your mobile operator and ask for header and add this header in custom header array.. 
 
 ## Solution : 
 U can add custom header as follow :
 ```
-app.use(msisdn(['YOUR_CUSTOM_HEADER']));
+app.use(msisdn(['OPERATOR_CUSTOM_HEADER_1','OPERATOR_CUSTOM_HEADER_2']));
 ```
 
 
